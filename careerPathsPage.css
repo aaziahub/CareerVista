@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar{
+    background-color:white;
+    color: black;
+    padding: 10px;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content:space-between;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+}
+.navbar-list{
+    list-style: none;
+}
+.navbar-list li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar .navbar-list li a:hover {
+    color: red;
+}
+.navbar-list a{
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+}
+.navdiv img {
+    height: 80px;
+    display: flex;
+}
+.heading{
+    width: 94.5%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    background-color: #1DCD8D;
+    font-weight: bold;
+}
+.heading h2{
+    color:white;
+    font-size: 50px;
+}
+.details p{
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: 6%;
+    margin-right: 5%;
+    font-weight: 500;
+    text-align: left;
+    word-spacing: 10px;
+    font-size: 23px;
+}
+
+.medical h3{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-bottom: 10px;
+    color:#1DCD8D;
+    font-size: 30px;
+}
+.medical ul{
+    position: relative;
+    margin-left: 30px;
+    word-spacing: 10px; 
+    font-size: 20px;
+}
+.medical li{
+    border: 3px solid #1DCD8D; 
+    border-radius: 10px;
+    padding: 60px 5px 60px 5px; 
+    margin: 7px; 
+    display: inline-block;
+}
+.medical h4{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+.medical li p{
+    text-align: justify;
+    margin: 0%;
+    padding: 3px;
+}
+.medical p{
+    padding-bottom: 5px;
+}
+.medical .otherMedCareers h4{
+padding-left: 5px;
+}
+.medical .otherMedCareers p{
+    display:block;
+    margin-left: 38px;
+    padding-left: 38px;
+    padding-right: 158px;
+    padding-bottom: 0px;
+}
+
+.engineering{
+    margin-top: 30px;
+    background-color: #1DCD8D;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    border-radius: 30px;
+}
+.engineering h3{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-bottom: 20px;
+    color:white;
+    font-size: 30px;
+}
+.engineering ul{
+    position: relative;
+    margin-left: 20px;
+    word-spacing: 10px; 
+    font-size: 20px;
+}
+.engineering li{
+    border: 3px solid #b7cbc4; 
+    border-radius: 10px;
+    padding: 60px 5px 60px 5px; 
+    margin: 7px; 
+    display: inline-block;
+}
+.engineering h4{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+.engineering li p{
+    text-align: justify;
+    margin: 0%;
+    padding: 3px;
+}
+.engineering p{
+    padding-bottom: 5px;
+}
+.engineering .otherEngCareers h4{
+ padding-left: 5px;
+}
+.engineering .otherEngCareers p{
+    display:block;
+    margin-left: 29px;
+    padding-left: 38px;
+    padding-right: 150px;
+    padding-bottom: 0px;
+}
+
+
+.computerSc h3{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-bottom: 10px;
+    color:#1DCD8D;
+    font-size: 30px;
+}
+.computerSc ul{
+    position: relative;
+    margin-left: 30px;
+    word-spacing: 10px; 
+    font-size: 20px;
+}
+.computerSc li{
+    border: 3px solid #1DCD8D; 
+    border-radius: 10px;
+    padding: 60px 5px 60px 5px; 
+    margin: 7px; 
+    display: inline-block;
+}
+.computerSc h4{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+.computerSc li p{
+    text-align: justify;
+    margin: 0%;
+    padding: 3px;
+}
+.computerSc p{
+    padding-bottom: 5px;
+}
+.computerSc .otherCSCareers h4{
+padding-left: 5px;
+}
+.computerSc .otherCSCareers p{
+    display:block;
+    margin-left: 38px;
+    padding-left: 38px;
+    padding-right: 158px;
+    padding-bottom: 0px;
+}
+
+.commerceCareer{
+    margin-top: 30px;
+    background-color: #1DCD8D;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    border-radius: 30px;
+}
+.commerceCareer h3{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-bottom: 20px;
+    color:white;
+    font-size: 30px;
+}
+.commerceCareer ul{
+    position: relative;
+    margin-left: 30px;
+    word-spacing: 10px; 
+    font-size: 20px;
+}
+.commerceCareer li{
+    border: 3px solid #b7cbc4; 
+    background-color: white;
+    border-radius: 10px;
+    padding: 60px 14px 60px 14px; 
+    margin: 7px; 
+    display: inline-block;
+}
+.commerceCareer h4{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+.commerceCareer li p{
+    text-align: justify;
+    margin: 0%;
+    padding: 3px;
+}
+.commerceCareer p{
+    padding-bottom: 5px;
+}
+.commerceCareer .otherCommerceCareers h4{
+padding-left: 5px;
+}
+.commerceCareer .otherCommerceCareers p{
+   display:block;
+    margin-left: 38px;
+    padding-left: 38px;
+    padding-right: 158px;
+    padding-bottom: 0px;
+}
+
+.artsCareers h3{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-bottom: 10px;
+    color:#1DCD8D;
+    font-size: 30px;
+}
+.artsCareers ul{
+    position: relative;
+    margin-left: 30px;
+    word-spacing: 10px; 
+    font-size: 20px;
+}
+.artsCareers li{
+    border: 3px solid #1DCD8D; 
+    border-radius: 10px;
+    padding: 60px 10px 60px 10px; 
+    margin: 7px; 
+    display: inline-block;
+}
+.artsCareers h4{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+.artsCareers li p{
+    text-align: justify;
+    margin: 0%;
+    padding: 3px;
+}
+.artsCareers p{
+    padding-bottom: 5px;
+}
+.artsCareers .otherArtsCareers h4{
+padding-left: 5px;
+}
+.artsCareers .otherArtsCareers p{
+    display:block;
+    margin-left: 38px;
+    padding-left: 38px;
+    padding-right: 152px;
+    padding-bottom: 0px;
+}
+
+
+.ending-para{
+    margin-top: 2%;
+    margin-bottom: 30px;
+    margin-left: 6%;
+    margin-right: 5%;
+}
+.ending-para p{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.footer .icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.footer .icons a {
+    margin: 0 10px;
+}
+
+.footer .icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer {
+    background:#1DCD8D;
+    padding: 30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+}
+
+.footer .row {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: white;
+    font-size: 0.8em;
+}
+
+.footer .row a {
+    text-decoration: none;
+    color: white;
+    font-size:large;
+}
+
+.footer .row a:hover {
+    color: red;
+}
+
+.footer .row ul {
+    width: 100%;
+}
+
+.footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.footer .row a i {
+    font-size: 2em;
+    margin: 0% 1%;
+}
+
+@media (max-width:720px) {
+    .footer {
+        text-align: left;
+        padding: 5%;
+    }
+
+    .footer .row ul li {
+        display: block;
+        margin: 10px 0px;
+        text-align: left;
+    }
+
+    .footer .row a i {
+        margin: 0% 3%;
+    }
+}
